@@ -196,6 +196,13 @@ This split-sample consistency significantly strengthens the credibility of the a
 
 - While trade-level reconstruction can provide additional granularity, execution-level analysis remains appropriate for studying behavioral asymmetries, directional bias, and regime-dependent risk concentration, which are the primary focus of this report.
 
+## Data Validation Note
+
+- During exploratory analysis, I verified identifier consistency and execution structure.
+We observed that exchange-provided trade identifiers are reused across multiple accounts, indicating that they do not represent a unique position lifecycle.
+
+- As a result, this study intentionally operates at the execution level, which is sufficient for analyzing behavioral asymmetries, sentiment-conditioned risk, and directional bias, without requiring full position reconstruction.
+
 ## Conclusion
 
 Market sentiment does not generate universal alpha.  
