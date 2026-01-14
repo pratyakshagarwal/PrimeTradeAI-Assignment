@@ -190,6 +190,11 @@ The second data subset did not contain observations for the *Extreme Greed* regi
 
 This split-sample consistency significantly strengthens the credibility of the analysis and reduces the likelihood that results are driven by overfitting or sample-specific noise.
 
+## Methodological Scope
+
+- This analysis is conducted at the execution level, where each row represents a filled order rather than a fully reconstructed position lifecycle.
+
+- While trade-level reconstruction can provide additional granularity, execution-level analysis remains appropriate for studying behavioral asymmetries, directional bias, and regime-dependent risk concentration, which are the primary focus of this report.
 
 ## Conclusion
 
